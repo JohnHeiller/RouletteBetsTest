@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Jhon Martinez\\Documents\\TEST\\Roulette\\RouletteBetsTest\\RouletteBets_WebApp\\RouletteBets_WebApp\\RouletteBets_WebApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Jhon Martinez\\Documents\\TEST\\Roulette\\RouletteBetsTest\\RouletteBets_WebApp\\RouletteBets_WebApp\\RouletteBets_WebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhon Martinez\\Documents\\TEST\\Roulette\\RouletteBetsTest\\RouletteBets_WebApp\\RouletteBets_WebApp\\RouletteBets_WebApp.csproj",
+        "projectName": "RouletteBets_WebApp",
+        "projectPath": "C:\\Users\\Jhon Martinez\\Documents\\TEST\\Roulette\\RouletteBetsTest\\RouletteBets_WebApp\\RouletteBets_WebApp\\RouletteBets_WebApp.csproj",
+        "packagesPath": "C:\\Users\\Jhon Martinez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhon Martinez\\Documents\\TEST\\Roulette\\RouletteBetsTest\\RouletteBets_WebApp\\RouletteBets_WebApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jhon Martinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://34.233.180.14/nexus/repository/nuget-hosted/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
