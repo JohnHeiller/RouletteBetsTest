@@ -10,6 +10,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
+using RouletteBets_WebApp.Models;
+using RouletteBets_WebApp.DataAccess;
 
 namespace RouletteBets_WebApp
 {
@@ -25,6 +28,11 @@ namespace RouletteBets_WebApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var connectionString = Configuration.GetConnectionString("DefaultConnection");
+            services.AddDbContext<RouletteBetsContext>(config =>
+            {
+                config.UseSqlServer(connectionString);
+            });
             services.AddControllers();
         }
 
