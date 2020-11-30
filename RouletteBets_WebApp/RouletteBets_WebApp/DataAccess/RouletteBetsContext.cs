@@ -10,7 +10,7 @@ namespace RouletteBets_WebApp.DataAccess
         {
         }
 
-        public DbSet<Bets> Bets { get; set; }
+        public DbSet<Bet> Bets { get; set; }
         public DbSet<Roulette> Roulette { get; set; }
         public DbSet<User> User { get; set; }
     }

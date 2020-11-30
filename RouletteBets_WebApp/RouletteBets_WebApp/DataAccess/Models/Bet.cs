@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RouletteBets_WebApp.Models
 {
-    public class Bets
+    public class Bet
     {
         [Key]
         public long Id { get; set; }
@@ -15,8 +15,13 @@ namespace RouletteBets_WebApp.Models
         public bool? Color { get; set; }
         public long Money { get; set; }
         public long UserId { get; set; }
-        public DateTime BetTime { get; set; }
+        public long RouletteId { get; set; }
+        public string BetTime { get; set; }
+        public double? WonMoney { get; set; }
+        public bool Active { get; set; }
         [ForeignKey("UserId")]
         public User User { get; set; }
+        [ForeignKey("RouletteId")]
+        public Roulette Roulette { get; set; }
     }
 }
