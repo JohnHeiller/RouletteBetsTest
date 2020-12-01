@@ -18,5 +18,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="5.6.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="SQLRepository\CreateTables\" />
+    <Folder Include="SQLRepository\Seeds\" />
+  </ItemGroup>
+
 
 </Project>

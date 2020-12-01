@@ -162,4 +162,3 @@ C:\Users\Jhon Martinez\Documents\TEST\Roulette\RouletteBetsTest\RouletteBets_Web
 C:\Users\Jhon Martinez\Documents\TEST\Roulette\RouletteBetsTest\RouletteBets_WebApp\RouletteBets_WebApp\obj\Debug\netcoreapp3.1\RouletteBets_WebApp.pdb
 C:\Users\Jhon Martinez\Documents\TEST\Roulette\RouletteBetsTest\RouletteBets_WebApp\RouletteBets_WebApp\obj\Debug\netcoreapp3.1\RouletteBets_WebApp.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Jhon Martinez\Documents\TEST\Roulette\RouletteBetsTest\RouletteBets_WebApp\RouletteBets_WebApp\obj\Debug\netcoreapp3.1\RouletteBets_WebApp.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Jhon Martinez\Documents\TEST\Roulette\RouletteBetsTest\RouletteBets_WebApp\RouletteBets_WebApp\obj\Debug\netcoreapp3.1\RouletteBets_WebApp.csprojAssemblyReference.cache
