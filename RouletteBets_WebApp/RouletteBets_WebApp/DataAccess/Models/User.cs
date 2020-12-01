@@ -14,5 +14,6 @@ namespace RouletteBets_WebApp.Models
         public string NumberId { get; set; }
         public string Email { get; set; }
         public string Telephone { get; set; }
+        public long CreditMoney { get; set; }
     }
 }

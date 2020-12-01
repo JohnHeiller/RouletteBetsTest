@@ -20,8 +20,8 @@ namespace RouletteBets_WebApp.Models
         public double? WonMoney { get; set; }
         public bool Active { get; set; }
         [ForeignKey("UserId")]
-        public User User { get; set; }
+        public virtual User User { get; set; }
         [ForeignKey("RouletteId")]
-        public Roulette Roulette { get; set; }
+        public virtual Roulette Roulette { get; set; }
     }
 }
