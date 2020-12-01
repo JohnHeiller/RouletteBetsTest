@@ -42,4 +42,3 @@ msbuild.wrn
 *.v2
 sln/
 nuget.config
-*.sql
